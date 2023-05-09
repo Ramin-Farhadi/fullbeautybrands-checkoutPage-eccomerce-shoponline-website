@@ -8,7 +8,9 @@ This project is a checkout page for FullBeauty Brands, an online ecommerce store
 + http://fbbrandschallenge.s3-website-us-east-1.amazonaws.com/
 ```
 
+```diff
 ## Description
+```
 
 The project focuses on the checkout page of FullBeauty Brands, which is the final step before placing an order. The page is fully responsive and includes the following features:
 
