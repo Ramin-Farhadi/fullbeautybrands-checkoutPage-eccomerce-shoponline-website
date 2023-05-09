@@ -8,25 +8,23 @@ This project is a checkout page for FullBeauty Brands, an online ecommerce store
 + http://fbbrandschallenge.s3-website-us-east-1.amazonaws.com/
 ```
 
-```diff
 ## Description
-```
 
 The project focuses on the checkout page of FullBeauty Brands, which is the final step before placing an order. The page is fully responsive and includes the following features:
 
-#### Two navigation bars:
+### Two navigation bars:
 
 one fixed and the other sticky.
 
-#### Shipping Address Section:
+### Shipping Address Section:
 
 The "Change Shipping Address" function is working, allowing you to update the shipping details.
 
-#### Payment Method Section:
+### Payment Method Section:
 
 The buttons in this section are for design purposes only and do not have any functionality.
 
-#### Review Your Order Section:
+### Review Your Order Section:
 
 This section includes the following features:
 
@@ -38,6 +36,6 @@ Subtotal for each item is calculated, and any applicable discounts are subtracte
 Data from all items is added to a table, which is then sent to the Order Summary section.
 Order Summary Section: The object sent from the Review Order section is stored as a state here. Shipping and tax are applied to the subtotal, and the total order amount is displayed as OrderTotal.
 
-#### Note:
+### Note:
 
 The project and website mentioned above are for demonstration purposes and do not involve actual transactions with FullBeauty Brands.
