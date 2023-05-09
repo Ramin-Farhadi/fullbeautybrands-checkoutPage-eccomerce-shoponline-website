@@ -29,13 +29,16 @@ The buttons in this section are for design purposes only and do not have any fun
 
 This section includes the following features:
 
-Hovering over product photos will cause them to scale up slightly.
-Changing the quantity of Product A (Blue Jacket) triggers a $20 discount for every 2 items, which is subtracted from the list price.
-Changing the quantity of Product B (Leather Coat) triggers a free item for every 2 selections.
-The section is fully responsive.
-Subtotal for each item is calculated, and any applicable discounts are subtracted from the subtotal.
-Data from all items is added to a table, which is then sent to the Order Summary section.
-Order Summary Section: The object sent from the Review Order section is stored as a state here. Shipping and tax are applied to the subtotal, and the total order amount is displayed as OrderTotal.
+1. Hovering over product photos will cause them to scale up slightly.
+2. Changing the quantity of Product A (Blue Jacket) triggers a $20 discount for every 2 items, which is subtracted from the list price.
+3. Changing the quantity of Product B (Leather Coat) triggers a free item for every 2 selections.
+4. The section is fully responsive.
+5. Subtotal for each item is calculated, and any applicable discounts are subtracted from the subtotal.
+6. Data from all items is added to a table, which is then sent to the Order Summary section.
+
+! Order Summary Section:
+
+The object sent from the Review Order section is stored as a state here. Shipping and tax are applied to the subtotal, and the total order amount is displayed as OrderTotal.
 
 @@ Note: @@
 
