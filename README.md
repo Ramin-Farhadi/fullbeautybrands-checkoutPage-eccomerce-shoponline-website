@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+#### FullBeauty Brands Ecommerce Checkout Page (Not Official) | React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a checkout page for FullBeauty Brands, an online ecommerce store based in NYC. Please note that this is not an official page of FullBeauty Brands; I created it for my own practice.
 
-## Available Scripts
+### You can review the production of the project by following this link.
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+The project focuses on the checkout page of FullBeauty Brands, which is the final step before placing an order. The page is fully responsive and includes the following features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Two navigation bars:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+one fixed and the other sticky.
 
-### `npm test`
+# Shipping Address Section:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The "Change Shipping Address" function is working, allowing you to update the shipping details.
 
-### `npm run build`
+# Payment Method Section:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The buttons in this section are for design purposes only and do not have any functionality.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Review Your Order Section:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This section includes the following features:
 
-### `npm run eject`
+Hovering over product photos will cause them to scale up slightly.
+Changing the quantity of Product A (Blue Jacket) triggers a $20 discount for every 2 items, which is subtracted from the list price.
+Changing the quantity of Product B (Leather Coat) triggers a free item for every 2 selections.
+The section is fully responsive.
+Subtotal for each item is calculated, and any applicable discounts are subtracted from the subtotal.
+Data from all items is added to a table, which is then sent to the Order Summary section.
+Order Summary Section: The object sent from the Review Order section is stored as a state here. Shipping and tax are applied to the subtotal, and the total order amount is displayed as OrderTotal.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Note:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The project and website mentioned above are for demonstration purposes and do not involve actual transactions with FullBeauty Brands.

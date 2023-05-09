@@ -1,0 +1,30 @@
+.masterCardIcon {
+  background-image: url(./icons/masterCard.png);
+  background-position: 3px 2px;
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-color: #212121;
+  height: 30px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .billingContainer {
+    text-align: center !important;
+    display: block !important;
+  }
+  .billingInfo {
+    padding-left: 10px !important;
+  }
+  .billingBtnArea {
+    padding-right: 0 !important;
+  }
+  .billingBtnAreaChild {
+    margin-bottom: 0px !important;
+  }
+  .billingBtnArea button {
+    margin-top: 15px;
+    width: 100%;
+  }
+}

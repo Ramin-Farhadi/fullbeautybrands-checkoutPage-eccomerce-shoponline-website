@@ -1,0 +1,31 @@
+.mainNavContainer {
+  /* background-color: wh; */
+  height: 85px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+.logoArea {
+  height: 100%;
+}
+.logo {
+  padding-top: 30px;
+  height: 30%;
+}
+
+.logoText {
+  white-space: nowrap;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 25px;
+  letter-spacing: 0.2rem;
+}
+
+@media screen and (max-width: 899px) {
+  .logo {
+    padding-left: 0;
+  }
+  .logoText {
+    padding-top: 35px;
+    font-size: 1.2rem;
+  }
+}

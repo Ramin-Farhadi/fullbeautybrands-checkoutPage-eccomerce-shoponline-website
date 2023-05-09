@@ -1,0 +1,49 @@
+button {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.editButton {
+  background-color: #fff;
+  border: solid 3px #e1bee7;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .editButton {
+    padding: 15px 10px;
+    font-size: 0.9rem;
+  }
+}
+
+.editButton:hover {
+  background-color: #9c27b0;
+  border: solid 3px #9c27b0;
+  color: #fff;
+  transition: ease-out 0.2s;
+}
+
+.primaryBtn {
+  font-size: 1.1rem;
+  font-weight: 700;
+  width: 100%;
+  color: #fff;
+  background-color: #7b1fa2;
+  border: solid 3px #7b1fa2;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+}
+.primaryBtn:hover {
+  background-color: #9c27b0;
+  border: solid 3px #9c27b0;
+  color: #fff;
+  transition: ease-out 0.2s;
+}
+.btnForm {
+  margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+.card {
+  position: relative;
+  border: 1px solid #ddd;
+  flex-basis: 100%;
+  margin-top: 16px;
+  padding: 16px;
+  margin: 60px 10px 75px 10px;
+  border-radius: 5px;
+}
+
+.gray {
+  background-color: #ececec;
+}
+
+@media screen and (max-width: 899px) {
+  .gray {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.cardTitle {
+  font-weight: 500;
+  font-size: 1.8rem;
+  position: absolute;
+  top: -70px;
+  color: #7b1fa2;
+}

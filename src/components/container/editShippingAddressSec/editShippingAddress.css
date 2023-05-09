@@ -1,0 +1,32 @@
+.editShippingAddressContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(117, 117, 117, 0.4);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.editShippingAddressSec {
+  justify-content: center;
+  width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .editShippingAddressSec {
+    width: 80%;
+  }
+}
+
+.form {
+  padding: 30px;
+  margin: auto;
+}
+
+.inputField {
+  margin-bottom: 20px !important;
+}

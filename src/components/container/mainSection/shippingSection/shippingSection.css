@@ -1,0 +1,26 @@
+.ShippingTitle {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.addressParagraph {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .shippingAddressContainer {
+    text-align: center !important;
+    display: block !important;
+  }
+  .shippingInfo {
+    padding-left: 10px !important;
+  }
+  .shippingBtnArea {
+    padding-right: 0 !important;
+  }
+  .shippingBtnArea button {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
